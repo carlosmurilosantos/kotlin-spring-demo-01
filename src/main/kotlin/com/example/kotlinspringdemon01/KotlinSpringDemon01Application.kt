@@ -20,11 +20,11 @@ class HelloWorldController{
 
 	@GetMapping
 	fun hello(): String{
-		return "hello world!"
+		return "hello world implantado"
 	}
 	@GetMapping("2")
 	fun helloworld2(): String{
-		return "Ola mundo!"
+		return "Ola mundo BR!"
 	}
 }
 enum class Especie { CACHORRO, GATO, PASSARO}
